@@ -23,8 +23,8 @@ import com.azure.core.util.polling.SyncPoller;
  */
 public class DocumentIntelligencePrebuiltInvoice {
 
-	private static final String key = "1MS3yttMAeSMHHjxYWM8jFtJPUdlMNWaFwkMuPRVPZVKimsanQEiJQQJ99BBACYeBjFXJ3w3AAALACOGVseQ";
-	private static final String endpoint = "https://adm-cvshealth-documentintelligence.cognitiveservices.azure.com/";
+	private static final String key = "Replace this text with your doc intelligence access key";
+	private static final String endpoint = "Replace this text with your doc intelligence endpoint";
 
 	public static void main(String[] args) {
 		File invoiceDocument = new File(
